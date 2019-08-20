@@ -8,10 +8,10 @@ namespace DAL
     {
         public static string StringConexao
         {
-            get 
-               {
-                 return "Data Source=PC-PC\\SQLEXPRESS;Initial Catalog=ControleEstoque;Integrated Security=True";
-               }
-         }
+            get
+            {
+                return "Data Source=PC-PC\\SQLEXPRESS;Initial Catalog=ControleEstoque;Integrated Security=True";
+            }
+        }
     }
 }
