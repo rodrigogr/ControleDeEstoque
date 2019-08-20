@@ -7,20 +7,20 @@ namespace DAL
 {
     public class DALConexao
     {
-        private string _stringConexao;
+        //private string _stringConexao;
         private SqlConnection _conexao;
 
         public DALConexao(string dadosConexao)
         {
             _conexao = new SqlConnection();
-            _stringConexao = dadosConexao;
+            //_stringConexao = dadosConexao;
             _conexao.ConnectionString = dadosConexao;
         }
-        public string StringConexao
+        /*public string StringConexao
         {
             get { return this._stringConexao; }
             set { this._stringConexao = value; }
-        }
+        }*/
         public SqlConnection ObjetoConexao
         {
             get { return this._conexao; }
